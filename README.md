@@ -1,6 +1,6 @@
 ![Open Ferlility logo](docs/static/OpenFertility.svg)
 
-Open Fertility is an open-source project dedicated to advancing fertility analysis and prediction through machine learning. The goal is to foster a __community-driven__ initiative that empowers fertility professionals, researchers, and enthusiasts with open-source tools and models, enabling professionals to make informed decisions and drive innovation in the field.
+Open Fertility is an open-source project dedicated to advancing fertility analysis and prediction through machine learning. The goal is to foster a __community-driven__ initiative that empowers fertility professionals, researchers, and enthusiasts. 
 
 Inspired by the paper [_An annotated human blastocyst dataset to benchmark deep learning architectures for in vitro fertilization_](https://www.nature.com/articles/s41597-023-02182-3) the aim is to leverage the open data they published to develop initial models.
 
