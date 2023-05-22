@@ -1,14 +1,18 @@
-# OpenFertility
+# Open Fertility
 
-OpenFertility is an open-source project focused on advancing fertility analysis and prediction using machine learning. The goal is to build a __community-driven__ initiative for developing open source tools and models to enhance understanding and decision-making in reproductive medicine.
+![Open Ferlility logo](docs/static/OpenFertility.svg)
 
-The idea for this project started after reading the paper [_An annotated human blastocyst dataset to benchmark deep learning architectures for in vitro fertilization_](https://www.nature.com/articles/s41597-023-02182-3) and initial models will be built on the open data they published.
+Open Fertility is an open-source project dedicated to advancing fertility analysis and prediction through machine learning. The goal is to foster a __community-driven__ initiative that empowers fertility professionals, researchers, and enthusiasts with open-source tools and models, enabling professionals to make informed decisions and drive innovation in the field.
 
-The long-term goal is to achieve
-- Tools for training, evaluating, and applying fertility models.
-- AI models tailored for fertility analysis.
-- Data preprocessing methods for diverse fertility datasets.
-- Simple user interfaces to access the models.
-- Collaborative opportunities for researchers and developers to contribute.
+Inspired by the paper [_An annotated human blastocyst dataset to benchmark deep learning architectures for in vitro fertilization_](https://www.nature.com/articles/s41597-023-02182-3) the aim is to leverage the open data they published to develop initial models.
+
+The primary objectives are to:
+
+- Cultivate an inclusive and collaborative community, bringing together experts and enthusiasts passionate about fertility.
+- Provide comprehensive tools for training, evaluating, and applying machine learning techniques in fertility analysis.
+- Enable effective data visualization to gain valuable insights and interpret fertility-related data with clarity.
+- Deliver intuitive user interfaces that grant easy access to our models, empowering users to make accurate predictions and conduct thorough analyses.
+
+
 
 Get in touch if you feel interested in participating!
