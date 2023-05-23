@@ -6,10 +6,10 @@ Inspired by the paper [_An annotated human blastocyst dataset to benchmark deep 
 
 The primary objectives are to:
 
-- Cultivate an inclusive and collaborative community, bringing together experts and enthusiasts passionate about fertility.
-- Provide comprehensive tools for training, evaluating, and applying machine learning techniques in fertility analysis.
-- Enable effective data visualization to gain valuable insights and interpret fertility-related data with clarity.
-- Deliver intuitive user interfaces that grant easy access to our models, empowering users to make accurate predictions and conduct thorough analyses.
+- Cultivate an inclusive and collaborative community, bringing together experts and enthusiasts.
+- Provide comprehensive tools for training, evaluating, and applying machine learning techniques.
+- Effective data visualization, to gain valuable insights and interpret data with clarity.
+- Deliver intuitive user interfaces that grant easy access to the models.
 
 
 
