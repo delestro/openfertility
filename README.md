@@ -16,18 +16,18 @@ Get in touch if you feel interested in participating!
 
 # Installation
 
-During this early develoment stage, a pip install is still not provided.
+During this early develoment stage, a PyPi pip installation is still not provided.
 
-So, follow these steps:
+To use the current version, follow these steps:
 
-1. Download or clone the files
-2. Navigate to the directory containing the repository
-3. Run `pip install .` 
+1. Download and unzip (`<> code` button above the files) or clone the repository 
+3. Navigate to the directory containing the repository
+4. Run `pip install .` 
 
 
 # Early features
 
-## Download the blastocyst dataset
+### Download the blastocyst dataset
 
 ```python
 import openfertility as of
