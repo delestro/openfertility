@@ -1,4 +1,4 @@
-![Open Ferlility logo](docs/static/OpenFertility.svg)
+![Open Ferlility logo](docs/static/logo/OpenFertility.svg)
 
 Open Fertility is an open-source project dedicated to advancing fertility analysis and prediction through machine learning. The goal is to foster a __community-driven__ initiative that empowers fertility professionals, researchers, and enthusiasts. 
 
@@ -35,3 +35,34 @@ import openfertility as of
 blasto2k = of.datasets.blasto2k.Dataset()
 blasto2k.download()
 ```
+
+### Generate training set
+
+```python
+import openfertility as of
+
+blasto2k = of.datasets.blasto2k.Dataset()
+blasto2k.download()
+train_set = blasto2k.Train()
+
+print(f'Image shape: {train_set[0][0].shape}')
+>>> Image shape: torch.Size([3, 384, 512])
+
+```
+
+### Show random grid from dataset
+```python
+import openfertility as of
+
+# Get the dataset
+blasto2k = of.datasets.blasto2k.Dataset()
+blasto2k.download()
+
+# Generate train set
+train_set = blasto2k.Train()
+
+# By default shows labels on the top left corner
+of.display.img.grid(train_set) 
+
+```
+![blasto2k-grid6x6](docs/static/blasto2k-grid6x6.png)
