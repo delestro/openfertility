@@ -20,7 +20,7 @@ During this early develoment stage, a PyPi pip installation is still not provide
 
 To use the current version, follow these steps:
 
-1. Download and unzip (`<> code` button above the files) or clone the repository 
+1. Download and unzip (`code` button above the files) or clone the repository 
 3. Navigate to the directory containing the repository
 4. Run `pip install .` 
 
@@ -59,7 +59,7 @@ blasto2k = of.datasets.blasto2k.Dataset()
 blasto2k.download()
 
 # Generate train set
-train_set = blasto2k.Train()
+train_set = blasto2k.TrainSet()
 
 # By default shows labels on the top left corner
 of.display.img.grid(train_set) 

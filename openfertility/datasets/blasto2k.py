@@ -31,7 +31,7 @@ class Dataset:
         os.remove(self.name + ".zip")
         log.info(f"Done!")
 
-    class Train(torch.utils.data.Dataset):
+    class TrainSet(torch.utils.data.Dataset):
         def __init__(self, target = "EXP_silver", transform=ToTensor()):
             # TODO: Check if download was done, if not, download
             self.image_dir = "blasto2k/Images"
