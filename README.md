@@ -34,6 +34,7 @@ import openfertility as of
 
 blasto2k = of.datasets.blasto2k.Dataset()
 blasto2k.download()
+
 ```
 
 ### Generate training set
@@ -43,7 +44,7 @@ import openfertility as of
 
 blasto2k = of.datasets.blasto2k.Dataset()
 blasto2k.download()
-train_set = blasto2k.Train()
+train_set = of.datasets.splits.TrainSet(blasto2k)
 
 print(f'Image shape: {train_set[0][0].shape}')
 >>> Image shape: torch.Size([3, 384, 512])
@@ -59,7 +60,7 @@ blasto2k = of.datasets.blasto2k.Dataset()
 blasto2k.download()
 
 # Generate train set
-train_set = blasto2k.TrainSet()
+train_set = of.datasets.splits.TrainSet(blasto2k)
 
 # By default shows labels on the top left corner
 of.display.img.grid(train_set) 
