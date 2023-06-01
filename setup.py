@@ -24,5 +24,12 @@ setup(
         "Natural Language :: English",
         "Programming Language :: Python :: 3",
     ],
-    install_requires=["pandas", "numpy", "torch", "scikit-learn", "matplotlib"],
+    install_requires=[
+        "pandas",
+        "numpy",
+        "torch",
+        "torchvision",
+        "scikit-learn",
+        "matplotlib",
+    ],
 )
