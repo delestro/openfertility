@@ -11,6 +11,17 @@ class Dataset:
     name = "blasto2k"
     reference = "https://doi.org/10.1038/s41597-023-02182-3"
 
+    def __init__(self):
+        # Labels
+        self.target = "EXP_silver"
+        self.labels_path = "Gardner_train_silver.csv"
+        self.separator = ";"
+        
+        # Data
+        self.data_path = "Images"
+        self.data_col = "Image"
+
+
     def download(self, force=False):
         # Download dataset
 
